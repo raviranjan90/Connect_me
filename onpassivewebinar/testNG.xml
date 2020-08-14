@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="onpassive">
+	<!-- <listeners><listener class-name="com.listeners.TestListeners" /></listeners> -->
+	<test name="Webinair">
+
+		<classes>
+			<class name="com.onpassivewebinar.test.ValidLogin" />
+			<class name="com.onpassivewebinar.test.ValidSignin" />
+			
+		</classes>
+	</test>
+	
+</suite>
