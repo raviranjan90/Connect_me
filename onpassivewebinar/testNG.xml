@@ -7,7 +7,9 @@
 		<classes>
 			<!--   <class name="com.onpassivewebinar.test.ValidLogin" />  -->
 		 	<!-- <class name="com.onpassivewebinar.test.CreateSchedule" />  --> 
-		 		<class name="com.onpassivewebinar.test.InviteForMeeting" />
+		 	<!--	<class name="com.onpassivewebinar.test.InviteForMeeting" /> -->
+		 	<!--	<class name="com.onpassivewebinar.test.InvitationSummary" /> -->
+		 		<class name="com.onpassivewebinar.test.JoinMeeting" />
 			
 		</classes>
 	</test>

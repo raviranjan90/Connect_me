@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70970" started-at="2020-09-14T07:29:46Z" finished-at="2020-09-14T07:30:57Z">
+  <suite name="Default suite" duration-ms="64183" started-at="2020-09-14T12:17:40Z" finished-at="2020-09-14T12:18:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70970" started-at="2020-09-14T07:29:46Z" finished-at="2020-09-14T07:30:57Z">
+    <test name="Default test" duration-ms="64183" started-at="2020-09-14T12:17:40Z" finished-at="2020-09-14T12:18:45Z">
       <class name="com.onpassivewebinar.test.JoinMeeting">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="18503" started-at="2020-09-14T12:59:46Z" finished-at="2020-09-14T13:00:05Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="11859" started-at="2020-09-14T17:47:40Z" finished-at="2020-09-14T17:47:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="FAIL" signature="jointheMeeting()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="jointheMeeting" duration-ms="52462" started-at="2020-09-14T13:00:05Z" finished-at="2020-09-14T13:00:57Z">
+        <test-method status="FAIL" signature="jointheMeeting()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="jointheMeeting" duration-ms="52307" started-at="2020-09-14T17:47:52Z" finished-at="2020-09-14T17:48:45Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//a[contains(text(),' Join ')])[10]"}
@@ -20,8 +20,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-04UPQC3', ip: '172.16.0.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f283ab138e549937caf2645e9f5c893
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60060}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70b0ce9670d764ef1458c15441a1042a
 *** Element info: {Using=xpath, value=(//a[contains(text(),' Join ')])[10]}]]>
             </message>
             <full-stacktrace>
@@ -31,8 +31,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-04UPQC3', ip: '172.16.0.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59277}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 3f283ab138e549937caf2645e9f5c893
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\pc\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:60060}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 70b0ce9670d764ef1458c15441a1042a
 *** Element info: {Using=xpath, value=(//a[contains(text(),' Join ')])[10]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
