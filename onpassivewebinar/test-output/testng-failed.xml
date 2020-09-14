@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [onpassive]">
-  <test name="Webinair(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.onpassivewebinar.test.CreateSchedule">
+      <class name="com.onpassivewebinar.test.JoinMeeting">
         <methods>
           <include name="openBrowser"/>
-          <include name="createEvent"/>
+          <include name="jointheMeeting"/>
         </methods>
-      </class> <!-- com.onpassivewebinar.test.CreateSchedule -->
+      </class> <!-- com.onpassivewebinar.test.JoinMeeting -->
     </classes>
-  </test> <!-- Webinair(failed) -->
-</suite> <!-- Failed suite [onpassive] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

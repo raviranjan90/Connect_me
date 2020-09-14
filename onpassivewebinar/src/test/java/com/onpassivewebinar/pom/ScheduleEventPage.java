@@ -75,7 +75,7 @@ public class ScheduleEventPage {
 		clickBackMonth.click();
 	}
 	//select month day(select day)
-	@FindBy(xpath="(//div[@class='btn-light ng-star-inserted'])[10]")
+	@FindBy(xpath="(//div[@class='btn-light ng-star-inserted'])[11]")
 	private WebElement selectMonthDay;
 	public WebElement getMonthDay() {
 		return selectMonthDay;

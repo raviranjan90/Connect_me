@@ -140,7 +140,7 @@ public class CreateAndInvitePage {
 		executor1.executeScript("arguments[0].click();", myEvent);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//a[text()=' Join '])[14]")).click();
-		
+		////*[@id="mat-tab-content-8-0"]/div/app-op-event-lists/table/tbody/tr[10]/td[3]/div/div[1]/a
 		
 	}
 

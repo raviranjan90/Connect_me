@@ -41,6 +41,10 @@ public class CommonLibrary extends BaseClass{
 		js.executeScript("window.scrollBy"+pt);
 		Thread.sleep(2000);
 	}
+	public void javaScriptClick(WebElement element) {
+		JavascriptExecutor jsexecutor = (JavascriptExecutor)driver;
+		jsexecutor.executeScript("arguments[0].click();", element);
+	}
 	
 
 	public void select(WebElement element,String text) {

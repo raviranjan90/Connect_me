@@ -31,7 +31,7 @@ public class InvitationSummary extends BaseClass{
 		Thread.sleep(2000);
 		login.setClickLogin();
 		//creating event
-		String event_Name = fl.getCellData(EVENT_PATH, "Sheet1", 1, 0);
+		String event_Name = fl.getCellData(EVENT_PATH, "Sheet1", 2, 0);
 		se.settxtEvent(event_Name);
 		//se.settxtEvent("OnlineMeet9");
 		Thread.sleep(2000);
