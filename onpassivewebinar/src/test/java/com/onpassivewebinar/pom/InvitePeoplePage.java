@@ -64,4 +64,23 @@ public class InvitePeoplePage {
 	public void setClickOutside() {
 		clickOutside.click();
 	}
+	//click checkbox
+	@FindBy(xpath="(//div[@class='mat-checkbox-inner-container'])[1]")
+	private WebElement checkbox;
+	public WebElement getCheckbox() {
+		return checkbox;
+	}
+	public void setCheckbox() {
+		checkbox.click();
+	}
+	// finish adding contacts
+	@FindBy(xpath="//div[@class='text-center ng-star-inserted']//button[@type='button']")
+	private WebElement finishAddingContactButton;
+	public WebElement getFinishContactButton() {
+		return finishAddingContactButton;
+	}
+	public void setFinishContactButton() {
+		finishAddingContactButton.click();
+	}
+	
 }

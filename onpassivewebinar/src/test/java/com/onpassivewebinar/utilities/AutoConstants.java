@@ -17,4 +17,5 @@ public interface AutoConstants {
 	String PROPERTIES_PATH="./external_data/file.properties";
 	String EVENT_PATH="./external_data/eventname.xlsx";
 	String PARTICIPANTS_PRESENTERS_PATH="./external_data/participants_presenters.xlsx";
+	String PASSWORD_AGENDA_PATH = "./external_data/password_agenda.xlsx";
 }

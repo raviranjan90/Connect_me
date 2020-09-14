@@ -2,6 +2,7 @@ package com.onpassivewebinar.test;
 
 import org.testng.annotations.Test;
 
+import com.onpassivewebinar.pom.InvitationSummaryPage;
 import com.onpassivewebinar.pom.InvitePeoplePage;
 import com.onpassivewebinar.pom.LoginPage;
 import com.onpassivewebinar.pom.ScheduleEventPage;
@@ -9,13 +10,14 @@ import com.onpassivewebinar.utilities.BaseClass;
 import com.onpassivewebinar.utilities.CommonLibrary;
 import com.onpassivewebinar.utilities.FileLibrary;
 
-public class InviteForMeeting extends BaseClass{
-
+public class InvitationSummary extends BaseClass{
+	
 	@Test
-	public void invitePeopleForMeeting() throws Exception  {
+	public void totalInvitedPeople() throws Exception {
 		LoginPage login = new LoginPage(driver);
 		ScheduleEventPage se = new ScheduleEventPage(driver);
 		InvitePeoplePage invitepeople = new InvitePeoplePage(driver);
+		InvitationSummaryPage invitationSummary = new InvitationSummaryPage(driver);
 		FileLibrary fl = new FileLibrary();
 		CommonLibrary cl = new CommonLibrary();
 		login.setBtnLogin();
@@ -61,9 +63,13 @@ public class InviteForMeeting extends BaseClass{
 		//se.setTimeZone();
 		
 		se.setpasswordselect();
-		se.settypePassword("Onpassive90@");
+		String meetingPassword = fl.getCellData(PASSWORD_AGENDA_PATH, "Sheet1", 1, 0); 
+		se.settypePassword(meetingPassword);
+		//se.settypePassword("Onpassive90@");
 		Thread.sleep(2000);
-		se.settypeAgenda("Important online meeting for you all");
+		String agenda = fl.getCellData(PASSWORD_AGENDA_PATH, "Sheet1", 1, 1);
+		se.settypeAgenda(agenda);
+		//se.settypeAgenda("Important online meeting for you all");
 		Thread.sleep(2000);
 		cl.scrollPage(se.getClickcCancel());
 		Thread.sleep(2000);
@@ -87,6 +93,12 @@ public class InviteForMeeting extends BaseClass{
 		Thread.sleep(2000);
 		invitepeople.setFinishContactButton();
 		Thread.sleep(2000);
-		
+		// Invitation summary
+		cl.scrollPage(invitationSummary.getSendInvitation());
+		Thread.sleep(2000);
+		invitationSummary.setSendInvitation();
+		Thread.sleep(2000);
+
 	}
+
 }

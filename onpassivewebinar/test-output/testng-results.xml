@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67102" started-at="2020-09-14T03:41:31Z" finished-at="2020-09-14T03:42:38Z">
+  <suite name="Default suite" duration-ms="72697" started-at="2020-09-14T05:28:37Z" finished-at="2020-09-14T05:29:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67102" started-at="2020-09-14T03:41:31Z" finished-at="2020-09-14T03:42:38Z">
+    <test name="Default test" duration-ms="72697" started-at="2020-09-14T05:28:37Z" finished-at="2020-09-14T05:29:50Z">
       <class name="com.onpassivewebinar.test.InviteForMeeting">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="10859" started-at="2020-09-14T09:11:31Z" finished-at="2020-09-14T09:11:42Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="10331" started-at="2020-09-14T10:58:37Z" finished-at="2020-09-14T10:58:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="invitePeopleForMeeting()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="invitePeopleForMeeting" duration-ms="56233" started-at="2020-09-14T09:11:42Z" finished-at="2020-09-14T09:12:38Z">
+        <test-method status="PASS" signature="invitePeopleForMeeting()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="invitePeopleForMeeting" duration-ms="62346" started-at="2020-09-14T10:58:47Z" finished-at="2020-09-14T10:59:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invitePeopleForMeeting -->
