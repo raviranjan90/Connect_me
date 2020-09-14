@@ -5,8 +5,9 @@
 	<test name="Webinair">
 
 		<classes>
-			<class name="com.onpassivewebinar.test.ValidLogin" />
-			<class name="com.onpassivewebinar.test.ValidSignin" />
+			<!--   <class name="com.onpassivewebinar.test.ValidLogin" />  -->
+		 	<!-- <class name="com.onpassivewebinar.test.CreateSchedule" />  --> 
+		 		<class name="com.onpassivewebinar.test.InviteForMeeting" />
 			
 		</classes>
 	</test>

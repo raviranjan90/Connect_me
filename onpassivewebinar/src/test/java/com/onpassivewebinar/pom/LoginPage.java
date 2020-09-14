@@ -1,4 +1,8 @@
 package com.onpassivewebinar.pom;
+/*
+ * 
+ * @author ravi
+ */
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -6,11 +10,12 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
+	
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath="//li[@class='nav-item']//a[contains(text(),' Login ')]")
+	@FindBy(xpath="//li[@class='nav-item ng-star-inserted']//a[contains(text(),'Login')]")
 	private WebElement btnLogin;
 	public WebElement getBtnLogin() {
 		return btnLogin;
@@ -20,7 +25,7 @@ public class LoginPage {
 	}
 	
 	
-	@FindBy(xpath="//div[@class='input-group mb-3']//input[@type='text']")
+	@FindBy(xpath="//input[@type='text']")
 	private WebElement textUserName;
 	public WebElement getTextloginUserName() {
 		return textUserName;
@@ -38,7 +43,7 @@ public class LoginPage {
 		textpassword.sendKeys(loginpassword);
 	}
 	
-	@FindBy(xpath="//button[contains(text(),'LOGIN')]")
+	@FindBy(xpath="//button[@class='btn btn-primary op-log-in-button']")
 	private WebElement loginButton;
 	public WebElement getClickLogin() {
 		return loginButton;

@@ -1,4 +1,8 @@
 package com.onpassivewebinar.utilities;
+/*
+ * 
+ * @author ravi
+ */
 
 import java.io.File;
 import java.text.DateFormat;
@@ -7,7 +11,9 @@ import java.util.Date;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -29,6 +35,13 @@ public class CommonLibrary extends BaseClass{
 		String title =driver.getTitle();
 		return title;
 	}
+	public void scrollPage(WebElement element) throws Exception {
+		Point pt = element.getLocation();
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("window.scrollBy"+pt);
+		Thread.sleep(2000);
+	}
+	
 
 	public void select(WebElement element,String text) {
 		Select select = new Select(element);

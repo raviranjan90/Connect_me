@@ -1,4 +1,8 @@
 package com.onpassivewebinar.utilities;
+/*
+ * 
+ * @author ravi
+ */
 
 public interface AutoConstants {
 	
@@ -11,4 +15,6 @@ public interface AutoConstants {
 	String SIGINEXCEL_PATH="./external_data/signdata.xlsx";
 	String LOGINEXCEL_PATH="./external_data/logindata.xlsx";
 	String PROPERTIES_PATH="./external_data/file.properties";
+	String EVENT_PATH="./external_data/eventname.xlsx";
+	String PARTICIPANTS_PRESENTERS_PATH="./external_data/participants_presenters.xlsx";
 }

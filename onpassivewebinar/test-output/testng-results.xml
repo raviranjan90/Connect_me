@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24890" started-at="2020-08-12T11:05:49Z" finished-at="2020-08-12T11:06:14Z">
+  <suite name="Default suite" duration-ms="67102" started-at="2020-09-14T03:41:31Z" finished-at="2020-09-14T03:42:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24890" started-at="2020-08-12T11:05:49Z" finished-at="2020-08-12T11:06:14Z">
-      <class name="com.onpassivewebinar.test.ValidLogin">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.ValidLogin@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="20846" started-at="2020-08-12T16:35:49Z" finished-at="2020-08-12T16:36:10Z">
+    <test name="Default test" duration-ms="67102" started-at="2020-09-14T03:41:31Z" finished-at="2020-09-14T03:42:38Z">
+      <class name="com.onpassivewebinar.test.InviteForMeeting">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="10859" started-at="2020-09-14T09:11:31Z" finished-at="2020-09-14T09:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="loginUser()[pri:0, instance:com.onpassivewebinar.test.ValidLogin@35bbe5e8]" name="loginUser" duration-ms="4037" started-at="2020-08-12T16:36:10Z" finished-at="2020-08-12T16:36:14Z">
+        <test-method status="PASS" signature="invitePeopleForMeeting()[pri:0, instance:com.onpassivewebinar.test.InviteForMeeting@35bbe5e8]" name="invitePeopleForMeeting" duration-ms="56233" started-at="2020-09-14T09:11:42Z" finished-at="2020-09-14T09:12:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginUser -->
-      </class> <!-- com.onpassivewebinar.test.ValidLogin -->
+        </test-method> <!-- invitePeopleForMeeting -->
+      </class> <!-- com.onpassivewebinar.test.InviteForMeeting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
