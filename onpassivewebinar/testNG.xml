@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="1" name="onpassive">
+<suite verbose="3" name="onpassive">
 	<!-- <listeners><listener class-name="com.listeners.TestListeners" /></listeners> -->
 	<test name="Webinair">
 

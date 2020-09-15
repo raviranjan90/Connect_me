@@ -35,6 +35,10 @@ public class CommonLibrary extends BaseClass{
 		String title =driver.getTitle();
 		return title;
 	}
+	public void explicit_Wait(WebElement element) {
+		WebDriverWait wait = new WebDriverWait(driver, 30);
+		wait.until(ExpectedConditions.visibilityOf(element));
+	}
 	public void scrollPage(WebElement element) throws Exception {
 		Point pt = element.getLocation();
 		JavascriptExecutor js= (JavascriptExecutor)driver;
@@ -43,7 +47,7 @@ public class CommonLibrary extends BaseClass{
 	}
 	public void javaScriptClick(WebElement element) {
 		JavascriptExecutor jsexecutor = (JavascriptExecutor)driver;
-		jsexecutor.executeScript("arguments[0].click();", element);
+		jsexecutor.executeScript("arguments[0].click();",element);
 	}
 	
 
