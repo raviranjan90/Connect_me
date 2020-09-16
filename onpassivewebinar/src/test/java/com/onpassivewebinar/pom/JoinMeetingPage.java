@@ -20,7 +20,7 @@ public class JoinMeetingPage {
 	public void setJoinEvent() {
 		joinEvent.click();
 	}
-	@FindBy(xpath="(//a[contains(text(),'Join')])[10]")
+	@FindBy(xpath="(//a[contains(text(),'Join')])")
 	private WebElement joinButton;
 	public WebElement getJoinButton() {
 		return joinButton;

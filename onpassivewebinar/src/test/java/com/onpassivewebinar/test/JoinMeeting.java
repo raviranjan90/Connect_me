@@ -35,11 +35,12 @@ public class JoinMeeting extends BaseClass{
 		Thread.sleep(2000);
 		//my events page
 		cl.explicit_Wait(joinMeeting.getJoinEvent());
+		
 		cl.javaScriptClick(joinMeeting.getJoinEvent());
 		//joinMeeting.setJoinEvent();
 		//String eventName = "LetsMeetOnline11";
 		Thread.sleep(2000);
-		cl.explicit_Wait(joinMeeting.getJoinButton());
+		
 		cl.scrollPage(joinMeeting.getJoinButton());
 		Thread.sleep(2000);
 		cl.javaScriptClick(joinMeeting.getJoinButton());
