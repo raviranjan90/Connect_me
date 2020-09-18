@@ -20,6 +20,7 @@ public class JoinMeetingPage {
 	public void setJoinEvent() {
 		joinEvent.click();
 	}
+	//@FindBy(xpath="//*[@id=\"mat-tab-content-5-0\"]/div/app-op-event-lists/table/tbody/tr[3]/td[3]/div/div[1]/a")
 	@FindBy(xpath="(//a[contains(text(),'Join')])")
 	private WebElement joinButton;
 	public WebElement getJoinButton() {
