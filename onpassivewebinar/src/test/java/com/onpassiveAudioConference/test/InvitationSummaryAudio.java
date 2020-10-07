@@ -3,18 +3,23 @@ package com.onpassiveAudioConference.test;
 import org.testng.annotations.Test;
 
 import com.onpassivewebinar.pom.AudioConferencePage;
+import com.onpassivewebinar.pom.InvitationSummaryPage;
+import com.onpassivewebinar.pom.InvitePeoplePage;
 import com.onpassivewebinar.pom.LoginPage;
 import com.onpassivewebinar.pom.ScheduleEventPage;
 import com.onpassivewebinar.utilities.BaseClass;
 import com.onpassivewebinar.utilities.CommonLibrary;
 import com.onpassivewebinar.utilities.FileLibrary;
 
-public class CreateScheduleAudio extends BaseClass {
+public class InvitationSummaryAudio extends BaseClass {
 
 	@Test
-	public void cteateEvent() throws Exception {
+	public void invitationSummary() throws Exception {
+
 		LoginPage login = new LoginPage(driver);
 		ScheduleEventPage se = new ScheduleEventPage(driver);
+		InvitePeoplePage invitepeople = new InvitePeoplePage(driver);
+		InvitationSummaryPage invitationSummary = new InvitationSummaryPage(driver);
 		FileLibrary fl = new FileLibrary();
 		CommonLibrary cl = new CommonLibrary();
 		AudioConferencePage acf = new AudioConferencePage(driver);
@@ -61,7 +66,6 @@ public class CreateScheduleAudio extends BaseClass {
 		Thread.sleep(2000);
 		//Set Time Zone
 
-
 		se.setpasswordselect();
 		se.settypePassword("Onpassive90@");
 		Thread.sleep(2000);
@@ -71,8 +75,31 @@ public class CreateScheduleAudio extends BaseClass {
 		Thread.sleep(2000);
 		se.setClickCreateButton();
 		Thread.sleep(2000);
-		
-		
+
+		//invite people
+		cl.scrollPage(invitepeople.getParticipantsText());
+		invitepeople.setParticipantsButton();;
+		cl.scrollPage(invitepeople.getFacebookIcon());
+		invitepeople.setcopyAndPaste();
+		//invitepeople.setInputEmailId("ravii.ranjan49@gmail.com");
+		String attendee1 = fl.getCellData(PARTICIPANTS_PRESENTERS_PATH,"Sheet1", 1, 0);
+		invitepeople.setInputEmailId(attendee1);
+		invitepeople.setClickOutside();
+		String attendee2 = fl.getCellData(PARTICIPANTS_PRESENTERS_PATH,"Sheet1", 2, 0);
+		invitepeople.setInputEmailId(attendee2);
+		//invitepeople.setInputEmailId("saikat@mail.com");
+		invitepeople.setClickOutside();
+		Thread.sleep(2000);
+		invitepeople.setCheckbox();
+		Thread.sleep(2000);
+		invitepeople.setFinishContactButton();
+		Thread.sleep(2000);
+		// Invitation summary
+		cl.scrollPage(invitationSummary.getSendInvitation());
+		Thread.sleep(2000);
+		invitationSummary.setSendInvitation();
+		Thread.sleep(2000);
+
 	}
 
 }
