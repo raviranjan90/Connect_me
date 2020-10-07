@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29883" started-at="2020-09-22T05:11:47Z" finished-at="2020-09-22T05:12:17Z">
+  <suite name="Default suite" duration-ms="65642" started-at="2020-10-07T08:58:00Z" finished-at="2020-10-07T08:59:06Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29883" started-at="2020-09-22T05:11:47Z" finished-at="2020-09-22T05:12:17Z">
-      <class name="com.onpassivewebinar.test.JoinMeeting">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="11349" started-at="2020-09-22T10:41:47Z" finished-at="2020-09-22T10:41:58Z">
+    <test name="Default test" duration-ms="65642" started-at="2020-10-07T08:58:00Z" finished-at="2020-10-07T08:59:06Z">
+      <class name="com.onpassiveAudioConference.test.CreateScheduleAudio">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassiveAudioConference.test.CreateScheduleAudio@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="10289" started-at="2020-10-07T14:28:00Z" finished-at="2020-10-07T14:28:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="jointheMeeting()[pri:0, instance:com.onpassivewebinar.test.JoinMeeting@35bbe5e8]" name="jointheMeeting" duration-ms="18531" started-at="2020-09-22T10:41:58Z" finished-at="2020-09-22T10:42:17Z">
+        <test-method status="PASS" signature="cteateEvent()[pri:0, instance:com.onpassiveAudioConference.test.CreateScheduleAudio@35bbe5e8]" name="cteateEvent" duration-ms="55342" started-at="2020-10-07T14:28:10Z" finished-at="2020-10-07T14:29:06Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- jointheMeeting -->
-      </class> <!-- com.onpassivewebinar.test.JoinMeeting -->
+        </test-method> <!-- cteateEvent -->
+      </class> <!-- com.onpassiveAudioConference.test.CreateScheduleAudio -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

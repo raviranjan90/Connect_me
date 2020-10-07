@@ -28,6 +28,14 @@ public class AudioConferencePage {
 	public void setAudioConference() {
 		audioConferenceOption.click();
 	}
+	@FindBy(xpath="//i[@class='fa fa-facebook']")
+	private WebElement facebookTab;
+	public WebElement getFacebooktab() {
+		return facebookTab;
+	}
+	public void setfacebookTab() {
+		facebookTab.click();
+	}
 
 	@FindBy(xpath="(//span[@class='mat-button-wrapper'])[1]")
 	private WebElement createRoomButton;

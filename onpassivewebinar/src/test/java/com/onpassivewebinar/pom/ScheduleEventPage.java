@@ -179,7 +179,7 @@ public class ScheduleEventPage {
 		selectPassword.click();
 	}
 	// type password
-	@FindBy(xpath="//input[@id='password']")
+	@FindBy(xpath="//input[@type='password']")
 	private WebElement typePassword;
 	public WebElement gettypePassword() {
 		return typePassword;
