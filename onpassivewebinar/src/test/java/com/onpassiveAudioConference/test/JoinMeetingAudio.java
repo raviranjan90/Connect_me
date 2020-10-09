@@ -16,7 +16,7 @@ public class JoinMeetingAudio extends BaseClass{
 
 	@Test
 	public void joinMeeting() throws Exception {
-		
+		//Login audio meet
 		LoginPage login = new LoginPage(driver);
 		ScheduleEventPage se = new ScheduleEventPage(driver);
 		InvitePeoplePage invitepeople = new InvitePeoplePage(driver);
