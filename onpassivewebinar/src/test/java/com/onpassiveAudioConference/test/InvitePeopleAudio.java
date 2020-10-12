@@ -35,7 +35,7 @@ public class InvitePeopleAudio extends BaseClass{
 		Thread.sleep(2000);
 		login.setClickLogin();
 		//Create Event
-		se.settxtEvent("Audio_Meet");
+		se.settxtEvent("Audio_Meet4");
 		Thread.sleep(2000);
 		cl.scrollPage(se.gettxtTimeSchedule());
 		Thread.sleep(2000);

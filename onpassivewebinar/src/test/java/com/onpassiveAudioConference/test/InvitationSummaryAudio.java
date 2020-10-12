@@ -39,7 +39,7 @@ public class InvitationSummaryAudio extends BaseClass {
 		login.setClickLogin();
 		
 		//Create Event
-		se.settxtEvent("Audio_Meet");
+		se.settxtEvent("Audio_Meet5");
 		Thread.sleep(2000);
 		cl.scrollPage(se.gettxtTimeSchedule());
 		Thread.sleep(2000);
