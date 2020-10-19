@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="92488" started-at="2020-10-12T06:23:10Z" finished-at="2020-10-12T06:24:42Z">
+  <suite name="Default suite" duration-ms="81528" started-at="2020-10-19T07:41:17Z" finished-at="2020-10-19T07:42:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="92488" started-at="2020-10-12T06:23:10Z" finished-at="2020-10-12T06:24:42Z">
-      <class name="com.onpassiveAudioConference.test.InvitationSummaryAudio">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassiveAudioConference.test.InvitationSummaryAudio@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="19895" started-at="2020-10-12T11:53:10Z" finished-at="2020-10-12T11:53:29Z">
+    <test name="Default test" duration-ms="81528" started-at="2020-10-19T07:41:17Z" finished-at="2020-10-19T07:42:39Z">
+      <class name="com.onpassiveChatandFileShare.test.CreateChatandFileShare">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.onpassiveChatandFileShare.test.CreateChatandFileShare@35bbe5e8]" name="openBrowser" is-config="true" duration-ms="24999" started-at="2020-10-19T13:11:17Z" finished-at="2020-10-19T13:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="invitationSummary()[pri:0, instance:com.onpassiveAudioConference.test.InvitationSummaryAudio@35bbe5e8]" name="invitationSummary" duration-ms="72571" started-at="2020-10-12T11:53:29Z" finished-at="2020-10-12T11:54:42Z">
+        <test-method status="PASS" signature="createEvent()[pri:0, instance:com.onpassiveChatandFileShare.test.CreateChatandFileShare@35bbe5e8]" name="createEvent" duration-ms="56502" started-at="2020-10-19T13:11:42Z" finished-at="2020-10-19T13:12:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invitationSummary -->
-      </class> <!-- com.onpassiveAudioConference.test.InvitationSummaryAudio -->
+        </test-method> <!-- createEvent -->
+      </class> <!-- com.onpassiveChatandFileShare.test.CreateChatandFileShare -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

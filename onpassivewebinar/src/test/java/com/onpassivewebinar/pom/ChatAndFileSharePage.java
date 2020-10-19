@@ -11,13 +11,31 @@ public class ChatAndFileSharePage {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath="//button[contains(text(),'Chat & file Share')]")
-	private WebElement audioConferenceOption;
-	public WebElement getAudioConference() {
-		return audioConferenceOption;
+	@FindBy(xpath="//li[@class='nav-item']//a[contains(text(),' Features ')]")
+	private WebElement featuresTab;
+	public WebElement getFeatures() {
+		return featuresTab;
 	}
-	public void setAudioConference() {
-		audioConferenceOption.click();
+	public void setFeatures() {
+		featuresTab.click();
+	}
+	
+	
+	@FindBy(xpath="//button[contains(text(),'Chat & file Share')]")
+	private WebElement chatAndFileShareOption;
+	public WebElement getChatAndFileShare() {
+		return chatAndFileShareOption;
+	}
+	public void setChatAndFileShare() {
+		chatAndFileShareOption.click();
+	}
+	@FindBy(xpath="//i[@class='fa fa-facebook']")
+	private WebElement facebookTab;
+	public WebElement getFacebooktab() {
+		return facebookTab;
+	}
+	public void setfacebookTab() {
+		facebookTab.click();
 	}
 
 	@FindBy(xpath="(//span[@class='mat-button-wrapper'])[1]")
