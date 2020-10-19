@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeClass;
 public class BaseClass implements AutoConstants{
 	
 public static WebDriver driver;
-	
+	//base class
 	@BeforeClass
 	public void openBrowser() throws Throwable {
 		FileLibrary fl = new FileLibrary();

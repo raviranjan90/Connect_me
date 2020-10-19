@@ -10,7 +10,7 @@ import com.onpassivewebinar.utilities.CommonLibrary;
 import com.onpassivewebinar.utilities.FileLibrary;
 
 public class CreateScheduleAudio extends BaseClass {
-
+	//chat page
 	@Test
 	public void cteateEvent() throws Exception {
 		LoginPage login = new LoginPage(driver);

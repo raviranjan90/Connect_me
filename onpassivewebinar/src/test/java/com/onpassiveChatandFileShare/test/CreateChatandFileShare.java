@@ -12,6 +12,7 @@ import com.onpassivewebinar.utilities.FileLibrary;
 
 public class CreateChatandFileShare extends BaseClass{
 	
+	//chat page
 	@Test
 	public void createEvent() throws Exception {
 		LoginPage login = new LoginPage(driver);

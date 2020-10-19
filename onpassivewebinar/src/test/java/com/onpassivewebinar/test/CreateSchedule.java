@@ -13,7 +13,7 @@ import com.onpassivewebinar.utilities.FileLibrary;
  * @author ravi
  */
 public class CreateSchedule extends BaseClass{
-	
+	//create page
 	@Test
 	public void createEvent() throws Exception {
 		LoginPage login = new LoginPage(driver);
